@@ -23,3 +23,17 @@
 - `vagrant ssh` to use the vm's shell
 - `vagrant suspend` shuts down the current vm
 - `vagrant resume` resumes a suspended vm
+
+#### Linux commands
+## Linux:
+* `apt-get install` - Package manager
+* `mkdir` - Make folder
+* `ls` - list files
+* `nano` - text editor
+* `touch` - makefile
+* `cd ..` - up a dir
+* `pwd`  - print working directory
+* `mv` - move also used to rename
+* `cp` - copy
+* `rm` - remove
+* `ll` - check permissions
