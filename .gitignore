@@ -1,4 +1,7 @@
 # vagrant
 Vagrantfile
 ubuntu-xenial*
+vagrant/app/
+vagrant/environment/
+vagrant/test/
 .vagrant/
