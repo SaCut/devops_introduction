@@ -43,7 +43,7 @@
 * `VARNAME="var_value"` for creating a variable
 * `unset VARNAME` deletes the variable
 * `export VARNAME="var_value"` for creating environment variables
-* `echo 'export VARNMAE="var_value"' >> ~/.bashrc`
+* `echo "export VARNMAE='var_value'" >> ~/.bashrc`
 
 #### spinning up a vm
 - set up configuration code inside the `Vagrantfile` file
