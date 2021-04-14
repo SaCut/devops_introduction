@@ -37,6 +37,11 @@
 * `rm` - remove
 * `ll` - check permissions
 
+- Variables:
+* `VARNAME="var_value"` for creating a variable
+* `export VARNAME="var_value"` for creating environment variables
+* `echo 'export VARNMAE="var_value"' >> ~/.profile`
+
 #### spinning up a vm
 - set up configuration code inside the `Vagrantfile` file
 - we used the following code:

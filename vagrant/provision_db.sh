@@ -5,7 +5,7 @@ export DEBIAN_FRONTEND=noninteractive
 # update and upgrade
 sudo apt-get update -y
 
-sudo apt-get upgrade -y
+# sudo apt-get upgrade -y
 
 # mogo
 wget -qO - https://www.mongodb.org/static/pgp/server-3.2.asc | sudo apt-key add -

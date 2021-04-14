@@ -4,7 +4,7 @@ export DEBIAN_FRONTEND=noninteractive
 
 sudo apt-get update -y
 
-sudo apt-get upgrade -y
+# sudo apt-get upgrade -y
 
 sudo apt-get install nginx -y
 
@@ -21,3 +21,9 @@ sudo apt-get update -y
 sudo apt-get install -y nodejs
 
 sudo npm install -g pm2
+
+# sudo npm install dotenv
+
+# sudo touch ~/app/app/app.env
+
+# echo "DB_HOST = mongodb://localhost:27017/admin" >> ~/app/app/app.env
