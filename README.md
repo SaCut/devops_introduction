@@ -38,7 +38,10 @@
 * `ll` - check permissions
 
 - Variables:
+* `env` prints all variables
+* `printenv VARNAME` prints the value of a specific variable
 * `VARNAME="var_value"` for creating a variable
+* `unset VARNAME` deletes the variable
 * `export VARNAME="var_value"` for creating environment variables
 * `echo 'export VARNMAE="var_value"' >> ~/.profile`
 

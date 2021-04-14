@@ -1,11 +1,9 @@
 #!/bin/bash
 
-export DEBIAN_FRONTEND=noninteractive
-
 # update and upgrade
 sudo apt-get update -y
 
-# sudo apt-get upgrade -y
+sudo apt-get upgrade -y
 
 # mogo
 wget -qO - https://www.mongodb.org/static/pgp/server-3.2.asc | sudo apt-key add -
@@ -24,3 +22,5 @@ sudo sed -i 's/127.0.0.1/0.0.0.0/g' /etc/mongod.conf
 sudo systemctl enable mongod
 
 sudo service mongod start
+
+sudo hostnamectl set-hostname db
