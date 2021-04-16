@@ -23,4 +23,5 @@ sudo systemctl enable mongod
 
 sudo service mongod start
 
+sudo echo "127.0.0.1       db" >> /etc/hosts
 sudo hostnamectl set-hostname db

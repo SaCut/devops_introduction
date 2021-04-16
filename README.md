@@ -130,3 +130,29 @@ end
     sudo systemctl enable mongod
     sudo service mongod start
     ```
+    
+#### Reverse Proxy with NginX
+- What is the default location of our NginX file?
+`cd /etc/nginx/sites-available/`
+- to modify it:
+`nano /etc/nginx/sites-available/default`
+- we need to use the default file in the same location to add our code to use it as our reverse proxy
+```
+server {
+	listen 80;
+
+	server_name _;
+
+	location / {
+		proxy_pass http://localhost:3000;
+		proxy_http_version 1.1;
+		proxy_set_header Upgrade $http_upgrade;
+		proxy_set_header Connection 'upgrade';
+		proxy_set_header Host $host;
+		proxy_cache_bypass $http_upgrade;
+	}
+}
+```
+- then restart nginx
+`sudo systemctl restart nginx`
+- and relaunch the website
