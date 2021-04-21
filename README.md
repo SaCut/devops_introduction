@@ -10,6 +10,15 @@
 - An approach through which superior quality software can be developed quickly and with more reliability.
 - An alignment of development and IT operations with better communication and collaboration.
 
+#### Pillars of DevOps
+* Ease of use
+* Flexibility
+* Robustness
+* Cost
+
+#### Advantage of DevOps:
+- Return of Investment (RoI)
+
 
 #### Vagrant commands:
 - `vagrant` lists all the commands
